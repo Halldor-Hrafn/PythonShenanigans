@@ -10,9 +10,7 @@ for i in range(0,3):
     NewDyr = str(input("Sláðu inn nýt dyr: "))
     Dyr.append(NewDyr)
 
-sorted(Dyr)
-
-for x in Dyr:
+for x in sorted(Dyr):
     print(x)
 
 time.sleep(3)

@@ -11,13 +11,13 @@ while num01 == 1:
 
     if PostNum >= 101 and PostNum <= 116 and PostNum != 106:
         print("Þú er í reykjavík")
-    elif PostNum == 170 and PostNum == 172:
+    elif PostNum == 170 or PostNum == 172:
         print("Þú er í Seltjarnarnessi")
     elif PostNum == 190:
         print("Þú er í Vogum")
     elif PostNum >= 200 and PostNum <= 203:
         print("Þú er í Kópavogi")
-    elif PostNum == 210 and PostNum == 212:
+    elif PostNum == 210 or PostNum == 212:
         print("Þú er í Garðabæ")
     elif PostNum >= 220 and PostNum <= 222:
         print("Þú er í Hafnafjörð")
