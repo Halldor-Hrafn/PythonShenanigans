@@ -14,7 +14,10 @@ while x:
     else:
         for i in range(0,num01):
             Land.append(str(input("Sláðu inn nýt land: ")))
+    Land.sort()
+    print("Löndin eru:", end=" ")
+    for i in Land:
+        print(i,end=" ")
+    print()
     
-    print(sorted(Land))
-    time.sleep(2)
-    print("Löndin eru",len(Land))
+    print("Löndin eru:",len(Land))
