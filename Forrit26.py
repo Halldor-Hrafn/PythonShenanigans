@@ -12,3 +12,9 @@ while x == True:
     Chances = random.randint(50,100)
     print("Það eru", str(Chances) + "% líkur að",Boy,Girl,"byrji saman")
     print("Barnið þeira mun heita",Boy[0:BoyName] + Girl[GirlName:])
+
+    Rep = str(input("Viltu halda áfram?"))
+    if Rep == "j":
+        continue
+    else:
+        x = False
