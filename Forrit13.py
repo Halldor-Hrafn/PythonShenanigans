@@ -2,12 +2,14 @@ import time
 import os
 import random
 
+
 def cls():
-    os.system('cls' if os.name=='nt' else 'clear')
+    os.system('cls' if os.name == 'nt' else 'clear')
 
-num01 = random.randint(1,10)
 
-print("Remember this number:",num01)
+num01 = random.randint(1, 10)
+
+print("Remember this number:", num01)
 time.sleep(1)
 print("It will be important later")
 time.sleep(2)
@@ -63,11 +65,11 @@ while num01 >= 1:
 
 print("There we go, now we can start using for loops")
 time.sleep(0.5)
-print("So, what i will show you is the multiplication table of",num03,"And",num04)
+print("So, what i will show you is the multiplication table of", num03, "And", num04)
 num05 = 1
 num04 = num04 + 1
 
-for i in range (1,num04):
+for i in range(1, num04):
     print(num03 * num05)
     num05 = num05+1
     time.sleep(0.25)

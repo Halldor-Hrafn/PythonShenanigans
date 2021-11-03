@@ -6,7 +6,7 @@ while num01 >= 1:
     num03 = num03+1
     num04 = 1
 
-    for i in range (1,num03):
+    for i in range(1, num03):
         print(num02 * num04)
         num04 = num04+1
         if num04 == num03:

@@ -9,6 +9,7 @@ def fornafnLeit():
         if NameList[0] == FirstName:
             print(word)
 
+
 def eftirnafnLeit():
     LastName = str(input('Sláðu inn eftirnafn til að leita af: '))
     file = open('nofn.txt')
@@ -19,6 +20,7 @@ def eftirnafnLeit():
         NameList = word.split(' ')
         if NameList[-1] in LastName:
             print(word)
+
 
 def forEftirnafnLeit():
     firstName = str(input('Sláðu inn fornafn til að leita af: '))
@@ -45,6 +47,7 @@ def choice():
     print('val 3: leita að fornafni og eftirnafni')
     print('val 4: hætta í forritið')
     print('****************************************')
+
 
 x = True
 while x:

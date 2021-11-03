@@ -8,7 +8,7 @@ y = True
 while y:
     x = True
 
-    print(schoolTwo[0:10],schoolOne[16:])
+    print(schoolTwo[0:10], schoolOne[16:])
 
     for i in fullName:
         print(i, end='+')
@@ -25,7 +25,7 @@ while y:
             x = False
         else:
             print('You are in the wrong school, FB is better')
-    
+
     startOver = str(input('Villtu spila aftur? '))
     if startOver == 'j':
         continue

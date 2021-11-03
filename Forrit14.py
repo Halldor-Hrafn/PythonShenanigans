@@ -2,8 +2,10 @@ import datetime
 import time
 import os
 
+
 def cls():
-    os.system('cls' if os.name=='nt' else 'clear')
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 
 def FaedingarAr():
     FaedAr = int(input("Sláðu inn hversu gamal þú er: "))
@@ -11,5 +13,6 @@ def FaedingarAr():
     time.sleep(2)
     print(2021-FaedAr)
     time.sleep(2)
+
 
 FaedingarAr()

@@ -12,16 +12,16 @@ while x:
     while y:
         # draw for the players
         if PlayerOneRep == "j":
-            OneDraw = random.randint(1,13)
+            OneDraw = random.randint(1, 13)
             PlayerOneTotal = PlayerOneTotal + OneDraw
-            print("Spilari 1 dragði",OneDraw)
+            print("Spilari 1 dragði", OneDraw)
         if PlayerTwoRep == "j":
-            TwoDraw = random.randint(1,13)
+            TwoDraw = random.randint(1, 13)
             PlayerTwoTotal = PlayerTwoTotal + TwoDraw
-            print("Spilari 2 dragði",TwoDraw)
-        
-        print("Spilari 1 er komin með",PlayerOneTotal)
-        print("Spilari 2 er komin með",PlayerTwoTotal)
+            print("Spilari 2 dragði", TwoDraw)
+
+        print("Spilari 1 er komin með", PlayerOneTotal)
+        print("Spilari 2 er komin með", PlayerTwoTotal)
 
         # check to see if anyone has reached over 21
         if PlayerOneTotal > 21 and PlayerTwoTotal > 21:

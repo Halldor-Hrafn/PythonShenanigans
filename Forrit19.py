@@ -1,8 +1,10 @@
 import time
 import os
 
+
 def cls():
-    os.system('cls' if os.name=='nt' else 'clear')
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 
 num01 = 1
 
@@ -36,7 +38,7 @@ while num01 == 1:
     else:
         print("Þessi mánuður er ekki til")
         continue
-    
+
     Response = str(input("Viltu halda áfram? "))
     if Response == "j":
         continue

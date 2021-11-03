@@ -13,7 +13,7 @@ for line in file:
     if Char01 in word:
         Num02 = Num02 + 1
 print('Það eru %s orð sem eru ekki með "e" í því' % Num01)
-print('%.0f'%((Num02/Encounter)*100)+'% orð innihalda stafin e')
+print('%.0f' % ((Num02/Encounter)*100)+'% orð innihalda stafin e')
 
 print('**************************************')
 
@@ -24,7 +24,7 @@ for line in file:
     word = line.strip()
     if Resp not in word:
         Num03 = Num03 + 1
-print('Það eru',Num03,'orð ekki með bókstafin',Resp)
+print('Það eru', Num03, 'orð ekki með bókstafin', Resp)
 
 print('*****************************')
 
@@ -34,4 +34,3 @@ for line in file:
     word = line.strip()
     Num04 = Num04 + len(word)
 print(Num04)
-

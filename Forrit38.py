@@ -2,6 +2,7 @@ def sumOfNumbers(numList01):
     tempNum = sum(numList01)
     return tempNum
 
+
 def complicatedCalculationShit(numList01):
     summ = 0
     safnT = []
@@ -10,15 +11,17 @@ def complicatedCalculationShit(numList01):
         safnT.append(summ)
     return summ
 
+
 def sorter(numList01):
     numList01.sort()
     return numList01
+
 
 numList01 = []
 
 res = int(input('Hversu margar tölur viltu bætta við listan? '))
 
-for i in range(0,res):
+for i in range(0, res):
     numList01.append(int(input('Sláðu inn tölu til að bætta við: ')))
 
 sumOfNumbers(numList01)
